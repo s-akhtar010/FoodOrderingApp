@@ -39,7 +39,7 @@ export const Hero = () => {
                
                 <img src={imgData[slider].url} alt="" className=' w-full h-[80vh] object-cover  rounded-3xl border-gray-300'/>
             </div>
-            <p className="absolute top-[50%] text-center w-full text-gray-100 font-semibold text-xl">
+            <p className="absolute top-[50%] text-center w-full text-xl text-gray-100 font-semibold md:text-2xl">
                 Welcome To the Delicious Food
             </p>
             <div className="flex justify-between w-full px-5 absolute top-[50%] text-black">

@@ -35,7 +35,7 @@ export const Header = () => {
 
            {/*  Hamburger Logic */}
             {sideNav &&
-                <div className="bg-[rgb(245,246,250)] w-[200px] absolute top-[65px] right-0 text-center h-[100vh] flex items-center justify-cente px-[60px]">
+                <div className="bg-[rgb(245,246,250)] w-[200px] absolute top-[65px] right-0 text-center h-[100vh] flex items-center justify-cente px-[60px] z-10 ">
                     <MdClose size={30} className="absolute top-2 right-3 cursor-pointer" onClick={handleChange} />
                     <ul className="sm:flex gap-12  cursor-pointer flex-col absolute">
                         <li className="hover:text-[#fbc531]">
