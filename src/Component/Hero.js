@@ -34,7 +34,7 @@ export const Hero = () => {
     },[slider]) */
 
     return (
-        <div>
+        <div className="mt-[80px]">
             <div className="w-[90%] mx-auto h-[80vh] my-5 relative" >
                
                 <img src={imgData[slider].url} alt="" className=' w-full h-[80vh] object-cover  rounded-3xl border-gray-300'/>
